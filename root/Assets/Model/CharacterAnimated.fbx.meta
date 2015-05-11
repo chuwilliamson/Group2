@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 3832047a7cd83a443adc40943cb7bc5d
+timeCreated: 1429549018
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CharacterRig:pCube1
+    100004: Tom_l_Arm_ClavicleSHJnt
+    100006: Tom_l_Arm_ElbowSHJnt
+    100008: Tom_l_Arm_ShoulderSHJnt
+    100010: Tom_l_Arm_WristSHJnt
+    100012: Tom_l_Leg_AnkleSHJnt
+    100014: Tom_l_Leg_BallSHJnt
+    100016: Tom_l_Leg_HipSHJnt
+    100018: Tom_l_Leg_KneeSHJnt
+    100020: Tom_l_Leg_ToeSHJnt
+    100022: Tom_MAINSHJnt
+    100024: Tom_Neck_01SHJnt
+    100026: Tom_Neck_02SHJnt
+    100028: Tom_Neck_TopSHJnt
+    100030: Tom_r_Arm_ClavicleSHJnt
+    100032: Tom_r_Arm_ElbowSHJnt
+    100034: Tom_r_Arm_ShoulderSHJnt
+    100036: Tom_r_Arm_WristSHJnt
+    100038: Tom_r_Leg_AnkleSHJnt
+    100040: Tom_r_Leg_BallSHJnt
+    100042: Tom_r_Leg_HipSHJnt
+    100044: Tom_r_Leg_KneeSHJnt
+    100046: Tom_r_Leg_ToeSHJnt
+    100048: Tom_ROOTSHJnt
+    100050: Tom_Spine_01SHJnt
+    100052: Tom_Spine_02SHJnt
+    100054: Tom_Spine_03SHJnt
+    100056: Tom_Spine_04SHJnt
+    100058: Tom_Spine_TopSHJnt
+    400000: //RootNode
+    400002: CharacterRig:pCube1
+    400004: Tom_l_Arm_ClavicleSHJnt
+    400006: Tom_l_Arm_ElbowSHJnt
+    400008: Tom_l_Arm_ShoulderSHJnt
+    400010: Tom_l_Arm_WristSHJnt
+    400012: Tom_l_Leg_AnkleSHJnt
+    400014: Tom_l_Leg_BallSHJnt
+    400016: Tom_l_Leg_HipSHJnt
+    400018: Tom_l_Leg_KneeSHJnt
+    400020: Tom_l_Leg_ToeSHJnt
+    400022: Tom_MAINSHJnt
+    400024: Tom_Neck_01SHJnt
+    400026: Tom_Neck_02SHJnt
+    400028: Tom_Neck_TopSHJnt
+    400030: Tom_r_Arm_ClavicleSHJnt
+    400032: Tom_r_Arm_ElbowSHJnt
+    400034: Tom_r_Arm_ShoulderSHJnt
+    400036: Tom_r_Arm_WristSHJnt
+    400038: Tom_r_Leg_AnkleSHJnt
+    400040: Tom_r_Leg_BallSHJnt
+    400042: Tom_r_Leg_HipSHJnt
+    400044: Tom_r_Leg_KneeSHJnt
+    400046: Tom_r_Leg_ToeSHJnt
+    400048: Tom_ROOTSHJnt
+    400050: Tom_Spine_01SHJnt
+    400052: Tom_Spine_02SHJnt
+    400054: Tom_Spine_03SHJnt
+    400056: Tom_Spine_04SHJnt
+    400058: Tom_Spine_TopSHJnt
+    4300000: CharacterRig:pCube1
+    7400000: Idle
+    7400002: Walk
+    7400004: Jump
+    7400006: Attack
+    9500000: //RootNode
+    13700000: CharacterRig:pCube1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharacterRig:pCube1
+        weight: 1
+      - path: Tom_MAINSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt/Tom_l_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt/Tom_r_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt/Tom_l_Arm_WristSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt/Tom_Neck_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt/Tom_r_Arm_WristSHJnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 37
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharacterRig:pCube1
+        weight: 1
+      - path: Tom_MAINSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt/Tom_l_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt/Tom_r_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt/Tom_l_Arm_WristSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt/Tom_Neck_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt/Tom_r_Arm_WristSHJnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharacterRig:pCube1
+        weight: 1
+      - path: Tom_MAINSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt/Tom_l_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt/Tom_r_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt/Tom_l_Arm_WristSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt/Tom_Neck_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt/Tom_r_Arm_WristSHJnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharacterRig:pCube1
+        weight: 1
+      - path: Tom_MAINSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_l_Leg_HipSHJnt/Tom_l_Leg_KneeSHJnt/Tom_l_Leg_AnkleSHJnt/Tom_l_Leg_BallSHJnt/Tom_l_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_r_Leg_HipSHJnt/Tom_r_Leg_KneeSHJnt/Tom_r_Leg_AnkleSHJnt/Tom_r_Leg_BallSHJnt/Tom_r_Leg_ToeSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_l_Arm_ClavicleSHJnt/Tom_l_Arm_ShoulderSHJnt/Tom_l_Arm_ElbowSHJnt/Tom_l_Arm_WristSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_Neck_01SHJnt/Tom_Neck_02SHJnt/Tom_Neck_TopSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt
+        weight: 1
+      - path: Tom_MAINSHJnt/Tom_ROOTSHJnt/Tom_Spine_01SHJnt/Tom_Spine_02SHJnt/Tom_Spine_03SHJnt/Tom_Spine_04SHJnt/Tom_Spine_TopSHJnt/Tom_r_Arm_ClavicleSHJnt/Tom_r_Arm_ShoulderSHJnt/Tom_r_Arm_ElbowSHJnt/Tom_r_Arm_WristSHJnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
