@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 		{
 			
 			{
-				_anim.SetTrigger ("right");
+				_anim.SetBool ("right", true);
 				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 200, 0));
 			}
 			
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetKeyUp (KeyCode.D)) 
 		{
 			{
-				_anim.SetTrigger ("idle");
+				_anim.SetBool ("idle");
 			}
 			Debug.Log ("Idle");
 		}
@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
 		{
 			
 			{
-				_anim.SetTrigger ("left");
+				_anim.SetBool ("left", true);
 				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
 			}
 			
