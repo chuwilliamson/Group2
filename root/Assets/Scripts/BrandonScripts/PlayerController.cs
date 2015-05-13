@@ -48,7 +48,6 @@ public class PlayerController : MonoBehaviour
 		 */
 		if (Input.GetKeyDown (KeyCode.D)) 
 		{
-			
 			{
 				_anim.SetBool ("right", true);
 				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 200, 0));
@@ -56,34 +55,33 @@ public class PlayerController : MonoBehaviour
 			
 			Debug.Log("face right");
 		}
-		/*
-		if (Input.GetKeyUp (KeyCode.D)) 
+
+		else if (Input.GetKeyUp (KeyCode.D)) 
 		{
 			{
-				_anim.SetBool ("idle");
+				_anim.SetBool ("idle", true);
 			}
 			Debug.Log ("Idle");
 		}
-		*/
+
 		if (Input.GetKeyDown (KeyCode.A))
 		{
-			
 			{
 				_anim.SetBool ("left", true);
-				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
+				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
 			}
 			
 			Debug.Log("face left");
 		}
-		/*
-		if (Input.GetKeyUp (KeyCode.A)) 
+
+		else if (Input.GetKeyUp (KeyCode.A)) 
 		{
 			{
-				_anim.SetTrigger ("idle");
+				_anim.SetBool ("idle", true);
 			}
 			Debug.Log("Idle");
 		}
-		*/
+
 	}
 	
 	void Move(float horizonalInput)
