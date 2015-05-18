@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Magnet : MonoBehaviour
-{
-    [SerializeField]
+public class VerticalMag : MonoBehaviour {
+
+	 [SerializeField]
     private Transform destination;
 
     public float power = 100;
@@ -17,10 +17,7 @@ public class Magnet : MonoBehaviour
 
     void OnTriggerStay2D()
     {
-        rb.AddForce(Vector2.right * power);
+        rb.AddForce(Vector2.up * power);
     }
+
 }
-
-
-
-	
