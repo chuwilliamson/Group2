@@ -1,0 +1,62 @@
+﻿Revert "Organizing"
+
+This reverts commit c05af494b0a4f19bcff9ec2e72751bd15f580ddc.
+
+Conflicts:
+	root/Assets/Scenes/BigBootyScenes/CharacterDevelopment.unity.meta
+	root/Assets/Scenes/BigBootyScenes/MainMenu1.unity.meta
+	root/Assets/Scenes/MainMenu1.unity
+	root/Assets/Scenes/MainMenu1.unity.meta
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# You are currently reverting commit c05af49.
+#
+# Changes to be committed:
+#	modified:   root/Assets/Magnet.cs
+#	modified:   root/Assets/Prefabs/Bomb.prefab
+#	modified:   root/Assets/Prefabs/Bomb.prefab.meta
+#	deleted:    root/Assets/Prefabs/Cube 40.prefab
+#	deleted:    root/Assets/Prefabs/Cube 41.prefab
+#	deleted:    root/Assets/Prefabs/Cube 5.prefab
+#	deleted:    root/Assets/Prefabs/False Plat.prefab
+#	new file:   root/Assets/Prefabs/FalsePlatform.prefab
+#	renamed:    root/Assets/Prefabs/Cube 41.prefab.meta -> root/Assets/Prefabs/FalsePlatform.prefab.meta
+#	deleted:    root/Assets/Prefabs/Jump Pad 1.prefab
+#	deleted:    root/Assets/Prefabs/Jump Pad 1.prefab.meta
+#	new file:   root/Assets/Prefabs/JumpPad.prefab
+#	renamed:    root/Assets/Prefabs/Cube 5.prefab.meta -> root/Assets/Prefabs/JumpPad.prefab.meta
+#	new file:   root/Assets/Prefabs/Magnet.prefab
+#	renamed:    root/Assets/Prefabs/False Plat.prefab.meta -> root/Assets/Prefabs/Magnet.prefab.meta
+#	modified:   root/Assets/Prefabs/MedPack.prefab
+#	modified:   root/Assets/Prefabs/MedPack.prefab.meta
+#	new file:   root/Assets/Prefabs/Platform.prefab
+#	renamed:    root/Assets/Prefabs/Cube 40.prefab.meta -> root/Assets/Prefabs/Platform.prefab.meta
+#	new file:   root/Assets/Prefabs/Portal.prefab
+#	new file:   root/Assets/Prefabs/Portal.prefab.meta
+#	deleted:    root/Assets/Prefabs/Spike 1.prefab
+#	deleted:    root/Assets/Prefabs/Spike 1.prefab.meta
+#	new file:   root/Assets/Prefabs/Spike.prefab
+#	new file:   root/Assets/Prefabs/Spike.prefab.meta
+#	new file:   root/Assets/Prefabs/StickTrap.prefab
+#	new file:   root/Assets/Prefabs/StickTrap.prefab.meta
+#	deleted:    root/Assets/Prefabs/Trap 3.prefab
+#	deleted:    root/Assets/Prefabs/Trap 3.prefab.meta
+#	modified:   root/Assets/Prefabs/invisWall.prefab
+#	modified:   root/Assets/Prefabs/invisWall.prefab.meta
+#	renamed:    root/Assets/Scenes/BigBootyScenes/Armedaggedon.unity -> root/Assets/Scenes/Armedaggedon.unity
+#	renamed:    root/Assets/Scenes/BigBootyScenes/Armedaggedon.unity.meta -> root/Assets/Scenes/Armedaggedon.unity.meta
+#	new file:   root/Assets/Scenes/MainMenu1.unity
+#	new file:   root/Assets/Scenes/MainMenu1.unity.meta
+#	modified:   root/Assets/Scenes/class game.unity
+#	deleted:    root/Assets/Scripts/BrandonScripts/PlayerContTest.cs
+#	deleted:    root/Assets/Scripts/BrandonScripts/PlayerContTest.cs.meta
+#	modified:   root/Assets/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D
+#	modified:   root/ProjectSettings/ProjectSettings.asset
+#	modified:   root/ProjectSettings/ProjectVersion.txt
+#
+
