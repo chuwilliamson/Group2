@@ -47,9 +47,8 @@ public class PlayerController : MonoBehaviour
 		 * default: idle face idle break;
 		 * just write code that turns him when you press input
 		 */
-		_anim.SetBool ("right", true);
 
-		if (Input.GetKeyDown (KeyCode.D) && (_anim.GetNextAnimatorStateInfo(0).IsName("right")))
+		if (Input.GetKeyDown (KeyCode.D))
 		{
 			{
 				//_anim.SetBool("idle",false);
