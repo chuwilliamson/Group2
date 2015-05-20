@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 	Rigidbody2D myBody;
 	[SerializeField]
 	private Animator _anim;
-
+	
 	bool isGrounded = false;
 
 	void Awake()
@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
 		myBody = GetComponent<Rigidbody2D>();
 		myTrans = this.transform;
 		tagGround = GameObject.Find (this.name + "/tag_ground").transform;
+		_anim.SetBool ("idle", true);
 	}
 
 	
@@ -46,44 +47,47 @@ public class PlayerController : MonoBehaviour
 		 * default: idle face idle break;
 		 * just write code that turns him when you press input
 		 */
-		if (Input.GetKeyDown (KeyCode.D)) 
+		_anim.SetBool ("right", true);
+
+		if (Input.GetKeyDown (KeyCode.D) && (_anim.GetNextAnimatorStateInfo(0).IsName("right")))
 		{
-			
 			{
-				_anim.SetBool ("right", true);
+				//_anim.SetBool("idle",false);
+				_anim.SetBool ("right", false);
 				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 200, 0));
 			}
 			
 			Debug.Log("face right");
 		}
-		/*
+
 		if (Input.GetKeyUp (KeyCode.D)) 
 		{
 			{
-				_anim.SetBool ("idle");
+				//right = false;
+				_anim.SetBool ("idle", true);
 			}
-			Debug.Log ("Idle");
+			Debug.Log ("IdleRight");
 		}
-		*/
+
 		if (Input.GetKeyDown (KeyCode.A))
 		{
-			
 			{
 				_anim.SetBool ("left", true);
-				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
+				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
 			}
 			
 			Debug.Log("face left");
 		}
-		/*
+
 		if (Input.GetKeyUp (KeyCode.A)) 
 		{
 			{
-				_anim.SetTrigger ("idle");
+				//left = false;
+				_anim.SetBool ("idle", true);
 			}
-			Debug.Log("Idle");
+			Debug.Log("IdleLeft");
 		}
-		*/
+
 	}
 	
 	void Move(float horizonalInput)
@@ -94,6 +98,13 @@ public class PlayerController : MonoBehaviour
 		Vector2 moveVel = myBody.velocity;
 		moveVel.x = horizonalInput * speed;
 		myBody.velocity = moveVel;
+	}
+
+	//set to false
+	public void Jump()
+	{
+		if(isGrounded)
+			myBody.velocity += jumpVelocity * Vector2.up;
 	}
 
 	/*
@@ -118,10 +129,5 @@ public class PlayerController : MonoBehaviour
 	}
 	*/
 
-	//set to false
-	public void Jump()
-	{
-		if(isGrounded)
-			myBody.velocity += jumpVelocity * Vector2.up;
-	}
+
 }
