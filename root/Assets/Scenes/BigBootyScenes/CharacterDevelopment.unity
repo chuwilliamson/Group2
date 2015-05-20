@@ -749,19 +749,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -6.42348486e-09
+      value: .0102044726
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: .999222457
+      value: .965174794
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -.0394270681
+      value: -.0380836241
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -1.62794009e-07
+      value: .258617699
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_RootOrder
@@ -782,7 +782,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 93da2181dba58a84da77c02b85148f00, type: 2}
+      objectReference: {fileID: 9100000, guid: e5f567c6f5fad954095f4986aa4df540, type: 2}
     - target: {fileID: 100010, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -919,6 +919,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 732ada7a106c81e48a5a8a90c9cb5b8f, type: 2}
+    - target: {fileID: 9500000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3832047a7cd83a443adc40943cb7bc5d, type: 3}
   m_IsPrefabParent: 0
@@ -966,16 +970,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 891169641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbd7ea35f1388624d86bb49e6c021304, type: 3}
+  m_Script: {fileID: 11500000, guid: 0934510d097b8e2409692f17ed28296e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpVelocity: 10
+  jumpVelocity: 5
   playerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canMoveInAir: 1
-  _anim: {fileID: 0}
+  isGrounded: 0
 --- !u!1 &985931896
 GameObject:
   m_ObjectHideFlags: 0
