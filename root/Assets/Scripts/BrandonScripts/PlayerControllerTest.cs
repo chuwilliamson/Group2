@@ -23,6 +23,8 @@ public class PlayerControllerTest : MonoBehaviour
 		anim = GetComponent<Animator>();
 	}
 
+	/*
+	//My Original Coding
 	void Start ()
 	{
 		myBody = GetComponent<Rigidbody2D>();
@@ -30,38 +32,52 @@ public class PlayerControllerTest : MonoBehaviour
 		tagGround = GameObject.Find (this.name + "/tag_ground").transform;
 		//_anim.SetBool ("idle", true);
 	}
-	
+	*/
 	
 	void FixedUpdate ()
 	{
+		////* My original Code *//// tested and works. Player moves and jumps. No animations except for looped idle
+		//isGrounded = Physics2D.Linecast (myTrans.position, tagGround.position, playerMask);
+		/*
+		Move (Input.GetAxisRaw ("Horizontal"));
+		if (Input.GetButtonDown ("Jump"))
+			Jump ();
+		*/
 
-		isGrounded = Physics2D.Linecast (myTrans.position, tagGround.position, playerMask);
-
+		/////* Alternate Coding */////
+		// Player can't move, but animation are used correctly
 		float move = Input.GetAxis ("Horizontal");
-		//move (Input.GetAxisRaw ("Horizontal"));
 		anim.SetFloat("Speed", move);
 
-		
+		////////* Alternate Jumping code + animations *//////////
+		 
 		AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
 		if(Input.GetKeyDown(KeyCode.Space) && stateInfo.nameHash == runStateHash)
 		{
 			anim.SetTrigger (jumpHash);
 		}
 
+
+		////* The Blender *//// work in progress. Trying to player move and use animations.
+		//isGrounded = Physics2D.Linecast (myTrans.position, tagGround.position, playerMask);
+
+		//Move (Input.GetAxis ("Horizontal"));
+		//anim.SetFloat ("Speed");
+
+		//If key is pressed rotate player 90 or 270 degrees
 		if (Input.GetKeyDown (KeyCode.D)) 
 		{
-			
 			this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
 		}
 
 		if (Input.GetKeyDown (KeyCode.A)) 
 		{
-
 			this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
 		}
 	}
-	/*
-	void move(float horizontalInput)
+	
+	//My Original Coding
+	void Move(float horizontalInput, float Speed)
 	{
 		if (!canMoveInAir && !isGrounded)
 			return;
@@ -70,10 +86,12 @@ public class PlayerControllerTest : MonoBehaviour
 		moveVel.x = horizontalInput * speed;
 		myBody.velocity = moveVel;
 	}
-	*/
+	/*
+	//My Original Coding
 	public void Jump()
 	{
 		if(isGrounded)
 			myBody.velocity += jumpVelocity * Vector2.up;
 	}
+	*/
 }

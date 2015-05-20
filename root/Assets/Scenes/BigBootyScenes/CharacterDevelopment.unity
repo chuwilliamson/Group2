@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpVelocity: 10
+  jumpVelocity: 5
   playerMask:
     serializedVersion: 2
     m_Bits: 256

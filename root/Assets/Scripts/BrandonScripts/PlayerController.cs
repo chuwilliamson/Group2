@@ -74,7 +74,8 @@ public class PlayerController : MonoBehaviour
 		}
 
 	}
-	
+
+
 	void Move(float horizontalInput)
 	{
 		if(!canMoveInAir && !isGrounded)
@@ -85,7 +86,6 @@ public class PlayerController : MonoBehaviour
 		myBody.velocity = moveVel;
 	}
 
-	//set to false
 	public void Jump()
 	{
 		if (isGrounded)
