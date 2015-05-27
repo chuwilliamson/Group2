@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour {
 		   followDir = (target.transform.position - transform.position).normalized; 
 		   if((transform.position - target.transform.position).sqrMagnitude > 4)
 				{
-					GetComponent<Rigidbody>().AddForce(new Vector3(0, followDir.y, 0) * speed);
+					GetComponent<Rigidbody>().AddForce(new Vector3(followDir.x, followDir.y, 0) * speed);
 				}
 	}
 }
