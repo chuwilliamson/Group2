@@ -8,8 +8,8 @@ public class Damage : MonoBehaviour {
 
      void OnCollisionEnter2D(Collision2D col)
      {
-
-         Player.GetComponent<PlayerStats>().currentHealth -= damage;
+         if(col.gameObject.CompareTag("Player"))
+            Player.GetComponent<PlayerStats>().currentHealth -= damage;
      }
 	
 	// Update is called once per frame

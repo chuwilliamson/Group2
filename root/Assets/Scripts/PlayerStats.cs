@@ -24,9 +24,12 @@ public class PlayerStats : MonoBehaviour {
         {
             Debug.Log(currentHealth);
             Destroy(gameObject);
+            Application.LoadLevel("GameOverMenu");
         }
-    }
 
+        }
+                
+            
     
     
 }
