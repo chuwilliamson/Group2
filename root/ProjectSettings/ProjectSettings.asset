@@ -12,7 +12,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ArmedageddonP3.2
+  productName: root
   cloudProjectId: 
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -80,7 +80,7 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  productGUID: ee7b2b22c0d07d34f85db6b4bac4729c
+  productGUID: a8c525325ca5aae429030279ed8e68a8
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -194,7 +194,7 @@ PlayerSettings:
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
-  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+  ps4Passcode: YT3CEW8K69rklPGtfUR2IZ2mB1S7NLt2
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -217,7 +217,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
+  psp2PackagePassword: nQfj3SL3XByImciQTqVaAUnJvUmHVQGs
   psp2KeystoneFile: 
   psp2DRMType: 0
   psp2StorageType: 0
@@ -257,7 +257,7 @@ PlayerSettings:
     16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     17: MOBILE_INPUT
     20: MOBILE_INPUT
-  metroPackageName: ArmedageddonP3.2
+  metroPackageName: root
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -268,7 +268,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: ArmedageddonP3.2
+  metroApplicationDescription: root
   metroStoreTileLogo80: 
   metroStoreTileLogo: 
   metroStoreTileLogo140: 
