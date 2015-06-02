@@ -36,92 +36,60 @@ public class PlayerController : MonoBehaviour
 		Move (Input.GetAxisRaw ("Horizontal"));
 		if (Input.GetButtonDown ("Jump"))
 		   	Jump ();
-		/*
-		 * when you press d face right
-		 * when you press a face left
-		 * when you are not pressing anything idle and face whatever it means to idle
-		 * switch(input)
-		 * case a: face right break;
-		 * case d: face left break;
-		 * default: idle face idle break;
-		 * just write code that turns him when you press input
-		 */
-		if (Input.GetKeyDown (KeyCode.D)) 
+
+		if (Input.GetKeyDown (KeyCode.D))
 		{
-			
 			{
-				_anim.SetBool ("right", true);
+				_anim.SetBool ("right", false);
 				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 200, 0));
 			}
 			
 			Debug.Log("face right");
 		}
-		/*
+
 		if (Input.GetKeyUp (KeyCode.D)) 
 		{
 			{
-				_anim.SetBool ("idle");
+				_anim.SetBool ("idle", true);
 			}
-			Debug.Log ("Idle");
+			Debug.Log ("IdleRight");
 		}
-		*/
+
 		if (Input.GetKeyDown (KeyCode.A))
 		{
-			
 			{
 				_anim.SetBool ("left", true);
-				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
+				this.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
 			}
 			
 			Debug.Log("face left");
 		}
-		/*
+
 		if (Input.GetKeyUp (KeyCode.A)) 
 		{
 			{
-				_anim.SetTrigger ("idle");
+				_anim.SetBool ("idle", true);
 			}
-			Debug.Log("Idle");
+			Debug.Log("IdleLeft");
 		}
-		*/
+
 	}
-	
-	void Move(float horizonalInput)
+
+
+	void Move(float horizontalInput)
 	{
 		if(!canMoveInAir && !isGrounded)
 			return;
 		
 		Vector2 moveVel = myBody.velocity;
-		moveVel.x = horizonalInput * speed;
+		moveVel.x = horizontalInput * speed;
 		myBody.velocity = moveVel;
 	}
 
-	/*
-	void FixedUpdate ()
-	{
-		isGrounded = Physics2D.Linecast (myTrans.position, tagGround.position, playerMask);
-
-		Move(Input.GetAxisRaw("Horizontal"));
-		if(Input.GetButtonDown("Jump"))
-			Jump();
-	
-	}
-	
-	void Move(float horizonalInput)
-	{
-		if(!canMoveInAir && !isGrounded)
-		    return;
-
-		Vector2 moveVel = myBody.velocity;
-		moveVel.x = horizonalInput * speed;
-		myBody.velocity = moveVel;
-	}
-	*/
-
-	//set to false
 	public void Jump()
 	{
-		if(isGrounded)
+		if (isGrounded)
 			myBody.velocity += jumpVelocity * Vector2.up;
 	}
+
 }
