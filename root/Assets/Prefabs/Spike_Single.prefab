@@ -102,7 +102,7 @@ Rigidbody2D:
   m_Mass: 60
   m_LinearDrag: 120
   m_AngularDrag: 0
-  m_GravityScale: 40
+  m_GravityScale: 90
   m_FixedAngle: 1
   m_IsKinematic: 1
   m_Interpolate: 0
