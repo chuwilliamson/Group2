@@ -13,3 +13,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOverMenu.unity
   - enabled: 1
     path: Assets/Scenes/Pause.unity
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalGame.unity
