@@ -22,7 +22,7 @@ void DoIan()
         //}
         //else
         //{
-            Application.LoadLevel("class game");
+            Application.LoadLevel("FinalGame");
             //Application.LoadLevel(0);
        // }
     }
