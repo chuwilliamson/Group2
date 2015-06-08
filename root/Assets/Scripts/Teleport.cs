@@ -11,13 +11,13 @@ public class Teleport : MonoBehaviour
     private GameObject player;
 
     // Use this for initialization
-    private void teleport(GameObject player, Transform destination)
+   /* private void teleport(GameObject player, Transform destination)
     {
 
-      //  player.transform.position = destination.transform.position;
+        player.transform.position = destination.transform.position;
 
     }
-
+    */
     // Update is called once per frame
     void OnCollisionEnter2D(Collision2D coll)
     {
