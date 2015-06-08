@@ -6,6 +6,13 @@ public class Damage : MonoBehaviour {
 	// Use this for initialization
 	 public int damage = 100;
 
+	/*
+	void Start()
+	{
+		if(Player == null)
+			Player = GameObject.FindGameObjectWithTag ("Player");
+	}
+	*/
      void OnCollisionEnter2D(Collision2D col)
      {
          if(col.gameObject.CompareTag("Player"))
@@ -14,6 +21,7 @@ public class Damage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 	
 	}
     [SerializeField]

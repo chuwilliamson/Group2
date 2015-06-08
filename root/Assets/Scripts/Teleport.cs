@@ -7,14 +7,14 @@ public class Teleport : MonoBehaviour
     private GameObject teleporter;
     [SerializeField]
     private Transform destination;
-    [SerializeField]
+   [SerializeField]
     private GameObject player;
 
     // Use this for initialization
     private void teleport(GameObject player, Transform destination)
     {
 
-        player.transform.position = destination.transform.position;
+      //  player.transform.position = destination.transform.position;
 
     }
 
@@ -22,8 +22,9 @@ public class Teleport : MonoBehaviour
     void OnCollisionEnter2D(Collision2D coll)
     {
 
-        teleport(player, destination);
-        Debug.Log("Its in");
+        player.transform.position = destination.transform.position;
+       // teleport(player, destination);
+       // Debug.Log("Its in");
     }
 
 

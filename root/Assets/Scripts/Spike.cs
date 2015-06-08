@@ -4,7 +4,7 @@ using System.Collections;
 public class Spike : MonoBehaviour
 {
 
-    public int damage = 10;
+    public int damage = 100;
     private bool tookDamage = false;
 
     void OnCollisionEnter2D(Collision2D col)
