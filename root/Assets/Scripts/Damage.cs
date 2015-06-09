@@ -13,9 +13,9 @@ public class Damage : MonoBehaviour {
 			Player = GameObject.FindGameObjectWithTag ("Player");
 	}
 	*/
-     void OnCollisionEnter2D(Collision2D col)
+     void OnTriggerEnter2D()
      {
-         if(col.gameObject.CompareTag("Player"))
+        // if(gameObject.CompareTag("Player"))
             Player.GetComponent<PlayerStats>().currentHealth -= damage;
      }
 	

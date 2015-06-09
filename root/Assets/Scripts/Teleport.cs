@@ -11,20 +11,23 @@ public class Teleport : MonoBehaviour
     private GameObject player;
 
     // Use this for initialization
-    private void teleport(GameObject player, Transform destination)
-    {
-
-      //  player.transform.position = destination.transform.position;
-
-    }
-
-    // Update is called once per frame
-    void OnCollisionEnter2D(Collision2D coll)
+   /* private void teleport(GameObject player, Transform destination)
     {
 
         player.transform.position = destination.transform.position;
-       // teleport(player, destination);
-       // Debug.Log("Its in");
+
+    }*/
+    void OnTriggerEnter2D()
+    {
+        player.transform.position = destination.transform.position;
+    }
+    // Update is called once per frame
+    void Update()
+    {
+
+       // player.transform.position = destination.transform.position;
+      // teleport(player, destination);
+       //Debug.Log("Its in");
     }
 
 

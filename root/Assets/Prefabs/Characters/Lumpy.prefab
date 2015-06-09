@@ -533,6 +533,7 @@ GameObject:
   - 58: {fileID: 5864770}
   - 58: {fileID: 5805208}
   - 114: {fileID: 11411588}
+  - 114: {fileID: 11448332}
   m_Layer: 8
   m_Name: Lumpy
   m_TagString: Player
@@ -1891,7 +1892,24 @@ MonoBehaviour:
   WhatisGround:
     serializedVersion: 2
     m_Bits: 4294967039
+<<<<<<< HEAD:root/Assets/Prefabs/Characters/Lumpy.prefab
   jumpForce: 500
+=======
+  jumpForce: 700
+--- !u!114 &11448332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c402ef54ab0f2e044ab59d0bc51a380b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100
+  currentHealth: -545
+>>>>>>> Swaglord/master:root/Assets/Prefabs/Lumpy.prefab
 --- !u!137 &13704422
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
