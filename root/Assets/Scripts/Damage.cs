@@ -6,9 +6,16 @@ public class Damage : MonoBehaviour {
 	// Use this for initialization
 	 public int damage = 100;
 
-     void OnCollisionEnter2D(Collision2D col)
+	/*
+	void Start()
+	{
+		if(Player == null)
+			Player = GameObject.FindGameObjectWithTag ("Player");
+	}
+	*/
+     void OnTriggerEnter2D()
      {
-         if(col.gameObject.CompareTag("Player"))
+        // if(gameObject.CompareTag("Player"))
             Player.GetComponent<PlayerStats>().currentHealth -= damage;
      }
 	

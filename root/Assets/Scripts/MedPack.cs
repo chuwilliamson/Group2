@@ -2,21 +2,21 @@
 using System.Collections;
 
 public class MedPack : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
+    private GameObject Med;
     public int heal = 15;
-	// Update is called once per frame
-    void OnCollisionEnter2D (Collision2D col)
+   
+    void OnTriggerEnter2D ()
     {
-        Player.GetComponent<PlayerStats>().currentHealth += heal;
+         Player.GetComponent<PlayerStats>().currentHealth += heal;
+
+        if (Med = GameObject.FindGameObjectWithTag("MedPack"))
+        {
 
             Destroy(this.gameObject);
-       }
+        }
+     }
     
-
-    public GameObject Player;
+    [SerializeField]
+     GameObject Player;
    
 }
