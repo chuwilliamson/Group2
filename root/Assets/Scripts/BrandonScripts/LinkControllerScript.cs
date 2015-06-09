@@ -19,9 +19,12 @@ public class LinkControllerScript : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask WhatisGround;
 	public float jumpForce = 700;
+<<<<<<< HEAD
 
 	//public bool doubleJump = false;
 
+=======
+>>>>>>> Beaux/master
 	//
 	// Use this for initialization
 	void Start () {
@@ -49,16 +52,16 @@ public class LinkControllerScript : MonoBehaviour {
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, WhatisGround);
 		anim.SetBool ("Ground", grounded);
 
+<<<<<<< HEAD
 		/* //Uncomment this for double jump
 		if(grounded)
 			doubleJump = false;
 		*/
 
+=======
+>>>>>>> Beaux/master
 		anim.SetFloat ("vSpeed", myBody.velocity.y);
 
-
-		//if (!grounded)
-		//	return;
 
 		float move = Input.GetAxis ("Horizontal");
 
@@ -79,8 +82,11 @@ public class LinkControllerScript : MonoBehaviour {
 
 		myBody.velocity = new Vector2 (move * maxSpeed, myBody.velocity.y);
 
+<<<<<<< HEAD
 		/*
 		// Flips the camera
+=======
+>>>>>>> Beaux/master
 		if (move > 0 && !facingRight)
 			Flip ();
 		else if (move < 0 && facingRight)
@@ -91,6 +97,7 @@ public class LinkControllerScript : MonoBehaviour {
 
 	void Update()
 	{
+<<<<<<< HEAD
 			//double jump coding
 		//if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.Space))
 
@@ -108,6 +115,15 @@ public class LinkControllerScript : MonoBehaviour {
 
 	//flip camera function
 	/*
+=======
+		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
+		{
+			anim.SetBool("Ground", false);
+			myBody.AddForce(new Vector2(0, jumpForce));
+		}
+	}
+
+>>>>>>> Beaux/master
 	void Flip()
 	{
 		facingRight = !facingRight;

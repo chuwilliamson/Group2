@@ -160,7 +160,7 @@ Transform:
   m_LocalScale: {x: 18.7875023, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!1 &66536186
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ Transform:
   - {fileID: 66536190}
   - {fileID: 1371606091}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 4
 --- !u!1 &129826536
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +339,11 @@ Transform:
   m_LocalScale: {x: 18.7875023, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 0
+>>>>>>> Beaux/master
 --- !u!1 &145753425
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +371,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1238270480}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!1001 &235338343
 Prefab:
   m_ObjectHideFlags: 0
@@ -429,6 +434,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05c98027197f10d48b41ecd91f0e49f3, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Beaux/master
 --- !u!1 &384945330
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,7 +543,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 460435632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8.52999973}
+  m_LocalPosition: {x: .220000267, y: .540000081, z: -5.38000011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1371606091}
@@ -892,6 +899,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
 --- !u!1 &719515651
 GameObject:
@@ -967,6 +975,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+=======
+  m_RootOrder: 3
+>>>>>>> Beaux/master
 --- !u!1 &722664089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1247,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1023963966}
   m_Mesh: {fileID: 4300002, guid: cb869e390a073554cb80da11a6d13048, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &1064311627
 Prefab:
   m_ObjectHideFlags: 0
@@ -1278,6 +1290,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 050a180fd86775a46b2ee928a47762c2, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Beaux/master
 --- !u!1 &1085288945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1320,7 @@ Transform:
   - {fileID: 987240203}
   m_Father: {fileID: 1923755082}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!1 &1108898047 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
@@ -1359,6 +1374,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   jumpForce: 700
+=======
+>>>>>>> Beaux/master
 --- !u!4 &1115466613 stripped
 Transform:
   m_PrefabParentObject: {fileID: 404530, guid: 1b92b393c170bd74087bc5fe0344f67a, type: 2}
@@ -1438,7 +1455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1371606087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1446,12 +1463,12 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371606086}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: 01574eeb96c2e2548a9611cd47da8383, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -.0199718475, y: .196988702}
+  m_Offset: {x: 0, y: .167031407}
   serializedVersion: 2
-  m_Size: {x: .860056639, y: .75602293}
+  m_Size: {x: .899999976, y: .815937519}
 --- !u!58 &1371606088
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1462,9 +1479,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .0500000007, y: -.409999996}
+  m_Offset: {x: 0, y: -.460000008}
   serializedVersion: 2
-  m_Radius: .200992584
+  m_Radius: .240935802
 --- !u!212 &1371606089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1513,13 +1530,22 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371606086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 12.7700005, y: 5.07000017, z: 0}
+=======
+  m_LocalPosition: {x: -5.03000021, y: 1.15999997, z: 0}
+>>>>>>> Beaux/master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 460435637}
   - {fileID: 1328058748}
+<<<<<<< HEAD
   m_Father: {fileID: 104317407}
   m_RootOrder: 3
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+>>>>>>> Beaux/master
 --- !u!95 &1371606092
 Animator:
   serializedVersion: 3
@@ -1552,6 +1578,7 @@ MonoBehaviour:
   groundCheck: {fileID: 0}
   WhatisGround:
     serializedVersion: 2
+<<<<<<< HEAD
     m_Bits: 0
   jumpForce: 700
 --- !u!1 &1432560273
@@ -1581,6 +1608,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1108898048}
   m_RootOrder: 2
+=======
+    m_Bits: 4294967039
+  jumpForce: 700
+>>>>>>> Beaux/master
 --- !u!1 &1442708806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1640,7 @@ Transform:
   - {fileID: 518248627}
   m_Father: {fileID: 1923755082}
   m_RootOrder: 1
+<<<<<<< HEAD
 --- !u!1001 &1745457238
 Prefab:
   m_ObjectHideFlags: 0
@@ -1875,6 +1907,8 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 483798, guid: 050a180fd86775a46b2ee928a47762c2, type: 2}
   m_PrefabInternal: {fileID: 1064311627}
+=======
+>>>>>>> Beaux/master
 --- !u!1 &1817533253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,7 +1968,11 @@ Transform:
   m_LocalScale: {x: 1.0794462, y: 1.0794462, z: 1.0794462}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 2
+>>>>>>> Beaux/master
 --- !u!1001 &1846696853
 Prefab:
   m_ObjectHideFlags: 0
@@ -1989,6 +2027,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b92b393c170bd74087bc5fe0344f67a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 --- !u!1 &1874579112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,6 +2129,8 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+=======
+>>>>>>> Beaux/master
 --- !u!1 &1923755081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,4 +2236,4 @@ Transform:
   m_Children:
   - {fileID: 1115466613}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 5
