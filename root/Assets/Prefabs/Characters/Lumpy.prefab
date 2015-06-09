@@ -535,7 +535,7 @@ GameObject:
   - 114: {fileID: 11411588}
   m_Layer: 8
   m_Name: Lumpy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1891,8 +1891,7 @@ MonoBehaviour:
   WhatisGround:
     serializedVersion: 2
     m_Bits: 4294967039
-  jumpForce: 700
-  doubleJump: 0
+  jumpForce: 500
 --- !u!137 &13704422
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
