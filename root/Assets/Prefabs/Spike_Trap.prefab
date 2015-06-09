@@ -81,13 +81,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 1, y: 1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-=======
+ 
   m_LocalPosition: {x: -2.69099998, y: 12.3529997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> Swaglord/master
+ 
   m_Children:
   - {fileID: 458480}
   - {fileID: 439848}
