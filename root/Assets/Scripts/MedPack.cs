@@ -7,7 +7,7 @@ public class MedPack : MonoBehaviour {
 	void Start () {
 	
 	}
-    public int heal = 5;
+    public int heal = 15;
 	// Update is called once per frame
     void OnCollisionEnter2D (Collision2D col)
     {

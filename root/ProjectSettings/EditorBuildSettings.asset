@@ -10,12 +10,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Next.lvl.unity
   - enabled: 1
-    path: Assets/Scenes/GameOverMenu.unity
+    path: Assets/Scenes/gui/GameOverMenu.unity
   - enabled: 1
-    path: Assets/Scenes/Pause.unity
+    path: Assets/Scenes/gui/Pause.unity
   - enabled: 1
-    path: Assets/Scenes/Win.unity
+    path: Assets/Scenes/gui/Win.unity
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
+    path: Assets/Scenes/gui/StartMenu.unity
   - enabled: 1
     path: Assets/Scenes/FinalGame.unity

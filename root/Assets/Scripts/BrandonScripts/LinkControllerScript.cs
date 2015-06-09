@@ -33,8 +33,8 @@ public class LinkControllerScript : MonoBehaviour {
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, WhatisGround);
 		anim.SetBool ("Ground", grounded);
 
-		if(grounded)
-			doubleJump = false;
+		//if(grounded)
+		//	doubleJump = false;
 
 		anim.SetFloat ("vSpeed", myBody.velocity.y);
 
@@ -49,32 +49,32 @@ public class LinkControllerScript : MonoBehaviour {
 		myBody.velocity = new Vector2 (move * maxSpeed, myBody.velocity.y);
 
 		// Flips the camera
-		if (move > 0 && !facingRight)
-			Flip ();
-		else if (move < 0 && facingRight)
-			Flip ();
+		//if (move > 0 && !facingRight)
+		//	Flip ();
+		//else if (move < 0 && facingRight)
+		//	Flip ();
 	
 	}
 
 	void Update()
 	{
-		if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.Space)) {
+		if ((grounded /*|| !doubleJump*/) && Input.GetKeyDown (KeyCode.Space)) {
 			anim.SetBool ("Ground", false);
 			myBody.AddForce (new Vector2 (0, jumpForce));
 
-			if(!doubleJump && !grounded)
-				doubleJump = true;
+			//if(!doubleJump && !grounded)
+				//doubleJump = true;
 			
 			} 
 	}
 
 	//flip camera function
-	void Flip()
+	/*void Flip()
 	{
 		facingRight = !facingRight;
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
-	}
+	}*/
 }
 

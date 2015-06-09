@@ -11,11 +11,11 @@ public class Bomb : MonoBehaviour {
 
         Player.GetComponent<PlayerStats>().currentHealth -= damage;
 
-        //if (col.gameObject.name == "Bomb")
-        //{
+        if (col.gameObject.name == "Bomb")
+        {
 
             Destroy(this.gameObject);
-        //}
+        }
 	
 	}
 
