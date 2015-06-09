@@ -4,22 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/class game.unity
-  - enabled: 1
-    path: Assets/Scenes/Next.lvl.unity
-  - enabled: 1
-    path: Assets/Scenes/gui/GameOverMenu.unity
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/gui/Pause.unity
-  - enabled: 1
-    path: Assets/Scenes/gui/Win.unity
-  - enabled: 1
-    path: Assets/Scenes/gui/StartMenu.unity
-  - enabled: 1
-    path: Assets/Scenes/FinalGame.unity
-=======
-    path: Assets/Scenes/Pause.unity
->>>>>>> Beaux/master
+  m_Scenes: []

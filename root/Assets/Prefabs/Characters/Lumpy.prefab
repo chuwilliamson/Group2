@@ -1892,9 +1892,7 @@ MonoBehaviour:
   WhatisGround:
     serializedVersion: 2
     m_Bits: 4294967039
-<<<<<<< HEAD:root/Assets/Prefabs/Characters/Lumpy.prefab
-  jumpForce: 500
-=======
+
   jumpForce: 700
 --- !u!114 &11448332
 MonoBehaviour:
@@ -1909,7 +1907,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 100
   currentHealth: -545
->>>>>>> Swaglord/master:root/Assets/Prefabs/Lumpy.prefab
 --- !u!137 &13704422
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

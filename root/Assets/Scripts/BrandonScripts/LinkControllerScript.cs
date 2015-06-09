@@ -19,13 +19,11 @@ public class LinkControllerScript : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask WhatisGround;
 	public float jumpForce = 700;
-<<<<<<< HEAD
+
 
 	//public bool doubleJump = false;
 
-=======
->>>>>>> Beaux/master
-	//
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -33,18 +31,7 @@ public class LinkControllerScript : MonoBehaviour {
 	
 	}
 
-	//Stop camera rotation, but also stops character from rotating
-	/*
-	void Awake()
-	{
-		rotation = transform.rotation;
-	}
-
-	void LateUpdate()
-	{
-		transform.rotation = rotation;
-	}
-	*/
+ 
 
 	// FixedUpdate is called once per fixed frame
 	void FixedUpdate () {
@@ -52,14 +39,6 @@ public class LinkControllerScript : MonoBehaviour {
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, WhatisGround);
 		anim.SetBool ("Ground", grounded);
 
-<<<<<<< HEAD
-		/* //Uncomment this for double jump
-		if(grounded)
-			doubleJump = false;
-		*/
-
-=======
->>>>>>> Beaux/master
 		anim.SetFloat ("vSpeed", myBody.velocity.y);
 
 
@@ -82,22 +61,12 @@ public class LinkControllerScript : MonoBehaviour {
 
 		myBody.velocity = new Vector2 (move * maxSpeed, myBody.velocity.y);
 
-<<<<<<< HEAD
-		/*
-		// Flips the camera
-=======
->>>>>>> Beaux/master
-		if (move > 0 && !facingRight)
-			Flip ();
-		else if (move < 0 && facingRight)
-			Flip ();
-	*/
 	}
 
 
 	void Update()
 	{
-<<<<<<< HEAD
+
 			//double jump coding
 		//if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.Space))
 
@@ -105,32 +74,9 @@ public class LinkControllerScript : MonoBehaviour {
 		{
 			anim.SetBool ("Ground", false);
 			myBody.AddForce (new Vector2 (0, jumpForce));
-
-			/* //double jumping stuff
-			if(!doubleJump && !grounded)
-				doubleJump = true;
-			*/
+ 
 		} 
 	}
-
-	//flip camera function
-	/*
-=======
-		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
-		{
-			anim.SetBool("Ground", false);
-			myBody.AddForce(new Vector2(0, jumpForce));
-		}
-	}
-
->>>>>>> Beaux/master
-	void Flip()
-	{
-		facingRight = !facingRight;
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
-	*/
+ 
 }
 

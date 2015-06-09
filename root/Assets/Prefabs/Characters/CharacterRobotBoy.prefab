@@ -191,12 +191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 100
-<<<<<<< HEAD:root/Assets/Prefabs/Characters/CharacterRobotBoy.prefab
-  currentHealth: -7555
-  healthBar: {fileID: 0}
-=======
-  currentHealth: -7585
->>>>>>> Swaglord/master:root/Assets/Prefabs/CharacterRobotBoy.prefab
+ 
+  currentHealth: -7585 
 --- !u!212 &21247684
 SpriteRenderer:
   m_ObjectHideFlags: 1
