@@ -9,6 +9,8 @@ public class LinkControllerScript : MonoBehaviour {
 	bool facingRight = true;
 	Rigidbody2D myBody;
 
+	Quaternion rotation;
+
 	Animator anim;
 
 	//used for ground
@@ -17,64 +19,64 @@ public class LinkControllerScript : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask WhatisGround;
 	public float jumpForce = 700;
-	public bool doubleJump = false;
 
-	//
+
+	//public bool doubleJump = false;
+
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
 		myBody = GetComponent<Rigidbody2D>();
 	
 	}
-	
+
+ 
+
 	// FixedUpdate is called once per fixed frame
 	void FixedUpdate () {
 
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, WhatisGround);
 		anim.SetBool ("Ground", grounded);
 
-		if(grounded)
-			doubleJump = false;
-
 		anim.SetFloat ("vSpeed", myBody.velocity.y);
 
 
-		//if (!grounded)
-		//	return;
-
 		float move = Input.GetAxis ("Horizontal");
+
+
+		if (Input.GetKeyDown (KeyCode.A)) {
+			{
+				this.gameObject.transform.rotation = Quaternion.Euler (new Vector3 (0, 270, 0));
+			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.D)) {
+			{
+				this.gameObject.transform.rotation = Quaternion.Euler (new Vector3 (0, 90, 0));
+			}
+		}
 
 		anim.SetFloat ("Speed", Mathf.Abs (move));
 
 		myBody.velocity = new Vector2 (move * maxSpeed, myBody.velocity.y);
 
-		// Flips the camera
-		if (move > 0 && !facingRight)
-			Flip ();
-		else if (move < 0 && facingRight)
-			Flip ();
-	
 	}
+
 
 	void Update()
 	{
-		if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.Space)) {
+
+			//double jump coding
+		//if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.Space))
+
+		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
+		{
 			anim.SetBool ("Ground", false);
 			myBody.AddForce (new Vector2 (0, jumpForce));
-
-			if(!doubleJump && !grounded)
-				doubleJump = true;
-			
-			} 
+ 
+		} 
 	}
-
-	//flip camera function
-	void Flip()
-	{
-		facingRight = !facingRight;
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
+ 
 }
 

@@ -3,19 +3,20 @@ using System.Collections;
 
 
 public class Bomb : MonoBehaviour {
+    private GameObject Bombs;
     void Start()
     {}
     public int damage = 15;
 
-	void OnCollisionEnter2D (Collision2D col) {
+	void OnTriggerEnter2D () {
 
         Player.GetComponent<PlayerStats>().currentHealth -= damage;
 
-        //if (col.gameObject.name == "Bomb")
-        //{
+        if (Bombs = GameObject.FindGameObjectWithTag("Bomb"))
+        {
 
             Destroy(this.gameObject);
-        //}
+        }
 	
 	}
 
