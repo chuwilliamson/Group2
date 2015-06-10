@@ -22,26 +22,12 @@ void DoIan()
         //}
         //else
         //{
-            Application.LoadLevel("class game");
+           // Application.LoadLevel(Application.loadedLevel);
             //Application.LoadLevel(0);
        // }
     }
 
-    //public void Update()
-    //{
-
-    //    if (Input.GetKeyDown("p"))
-    //    {
-
-    //        Application.LoadLevel("Pause");
-    //    }
-
-
-    //}
-
-
-  //  using UnityEngine;
-//using System.Collections;
+   
 
 public class Pause : MonoBehaviour
 {
