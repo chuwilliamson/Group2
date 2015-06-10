@@ -13,34 +13,31 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Ground
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
-  - m_Name: vSpeed
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Turn
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Forward
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-=======
->>>>>>> Beaux/master
+    m_Controller: {fileID: 0}
+  - m_Name: vSpeed
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -55,7 +52,36 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   m_MultiThreadedStateMachine: 1
-<<<<<<< HEAD
+--- !u!206 &20609858
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Blend Tree
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400004, guid: 51dd2e4c869794f75a0df7d54b210214, type: 3}
+    m_Threshold: 2
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400006, guid: 51dd2e4c869794f75a0df7d54b210214, type: 3}
+    m_Threshold: 8
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  m_BlendParameter: vSpeed
+  m_BlendParameterY: Speed
+  m_MinThreshold: 2
+  m_MaxThreshold: 8
+  m_UseAutomaticThresholds: 0
+  m_NormalizedBlendValues: 0
+  m_BlendType: 0
 --- !u!206 &20612076
 BlendTree:
   m_ObjectHideFlags: 1
@@ -100,7 +126,7 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!206 &20671824
+--- !u!206 &20667020
 BlendTree:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -234,7 +260,7 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 3
---- !u!206 &20671952
+--- !u!206 &20668408
 BlendTree:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -249,8 +275,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: 
     m_Mirror: 0
-  m_BlendParameter: Turn
-  m_BlendParameterY: Forward
+  m_BlendParameter: Speed
+  m_BlendParameterY: vSpeed
   m_MinThreshold: 0
   m_MaxThreshold: 0
   m_UseAutomaticThresholds: 0
@@ -286,49 +312,52 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 1
---- !u!1101 &110123776
+--- !u!1101 &110113780
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
-=======
---- !u!1101 &110113380
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
->>>>>>> Beaux/master
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-<<<<<<< HEAD
   - m_ConditionMode: 3
     m_ConditionEvent: Speed
     m_EventTreshold: .00999999978
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110236212}
-=======
-  - m_ConditionMode: 4
-    m_ConditionEvent: Speed
-    m_EventTreshold: .00999999978
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 110237006}
->>>>>>> Beaux/master
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-<<<<<<< HEAD
   m_TransitionDuration: .243138015
   m_TransitionOffset: 0
   m_ExitTime: .756861985
-=======
-  m_TransitionDuration: .93749994
-  m_TransitionOffset: 0
-  m_ExitTime: .0625000596
->>>>>>> Beaux/master
   m_HasExitTime: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< HEAD
+--- !u!1101 &110123776
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 3
+    m_ConditionEvent: Speed
+    m_EventTreshold: .00999999978
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110236212}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .243138015
+  m_TransitionOffset: 0
+  m_ExitTime: .756861985
+  m_HasExitTime: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &110125204
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -347,6 +376,52 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: .10203097
   m_TransitionOffset: .0180516355
+  m_ExitTime: .899999976
+  m_HasExitTime: 0
+  m_InterruptionSource: 1
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &110132938
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Ground
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110243148}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .100000001
+  m_TransitionOffset: 0
+  m_ExitTime: .899999976
+  m_HasExitTime: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &110137852
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Crouch
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110200000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .0801232457
+  m_TransitionOffset: 0
   m_ExitTime: .899999976
   m_HasExitTime: 0
   m_InterruptionSource: 1
@@ -376,9 +451,6 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &110147568
-=======
---- !u!1101 &110179976
->>>>>>> Beaux/master
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -401,27 +473,49 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< HEAD
---- !u!1101 &110150450
+--- !u!1101 &110151422
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: OnGround
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110276412, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .10203097
+  m_TransitionOffset: .0180516355
+  m_ExitTime: .899999976
+  m_HasExitTime: 0
+  m_InterruptionSource: 1
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &110163424
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: Speed
-    m_EventTreshold: .00999999978
+  - m_ConditionMode: 1
+    m_ConditionEvent: Ground
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 110236212}
+  m_DstState: {fileID: 110201342}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .243138015
+  m_TransitionDuration: 3.74997687
   m_TransitionOffset: 0
-  m_ExitTime: .756861985
-  m_HasExitTime: 0
+  m_ExitTime: 0
+  m_HasExitTime: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -448,10 +542,30 @@ AnimatorStateTransition:
   m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &110181474
-=======
---- !u!1101 &110191560
->>>>>>> Beaux/master
+--- !u!1101 &110178958
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 3
+    m_ConditionEvent: Speed
+    m_EventTreshold: .00999999978
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110236212}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .400000006
+  m_TransitionOffset: 0
+  m_ExitTime: .756861985
+  m_HasExitTime: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &110182308
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -462,15 +576,37 @@ AnimatorStateTransition:
     m_ConditionEvent: Speed
     m_EventTreshold: .00999999978
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 110240762}
+  m_DstState: {fileID: 110201342}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-<<<<<<< HEAD
-  m_TransitionDuration: .421348363
+  m_TransitionDuration: .400000006
   m_TransitionOffset: 0
   m_ExitTime: .578651667
+  m_HasExitTime: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &110185514
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 3
+    m_ConditionEvent: Speed
+    m_EventTreshold: .00999999978
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110236212}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: .243138015
+  m_TransitionOffset: 0
+  m_ExitTime: .756861985
   m_HasExitTime: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -494,11 +630,6 @@ AnimatorStateTransition:
   m_TransitionDuration: 3.74997687
   m_TransitionOffset: 0
   m_ExitTime: 0
-=======
-  m_TransitionDuration: .333333343
-  m_TransitionOffset: 0
-  m_ExitTime: .666666627
->>>>>>> Beaux/master
   m_HasExitTime: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -526,7 +657,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 1
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &110207374
+--- !u!1102 &110201342
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
@@ -535,13 +666,31 @@ AnimatorState:
   m_Name: Grounded 0
   m_Speed: 1
   m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 110178958}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 588, y: 96, z: 0}
+  m_IKOnFeet: 1
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_Motion: {fileID: 20667020}
+  m_Tag: 
+--- !u!1102 &110229526
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Grounded 1
+  m_Speed: 1
+  m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 588, y: 96, z: 0}
   m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_Motion: {fileID: 20671952}
+  m_Motion: {fileID: 20668408}
   m_Tag: 
 --- !u!1102 &110236212
 AnimatorState:
@@ -553,17 +702,13 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-<<<<<<< HEAD
-  - {fileID: 110181474}
-=======
-  - {fileID: 110113380}
->>>>>>> Beaux/master
+  - {fileID: 110182308}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_Motion: {fileID: 7400000, guid: 6b122bf788396d743a626df33816798e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1cb8ed3cbba15f0479fbae54e0a963df, type: 3}
   m_Tag: 
 --- !u!1102 &110237006
 AnimatorState:
@@ -574,36 +719,31 @@ AnimatorState:
   m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 110179976}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-<<<<<<< HEAD
   m_Motion: {fileID: 20699350}
   m_Tag: 
---- !u!1102 &110240762
+--- !u!1102 &110243148
 AnimatorState:
   serializedVersion: 5
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Grounded
+  m_Name: Jump&Fall
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 110150450}
+  - {fileID: 110163424}
   m_StateMachineBehaviours: []
-  m_Position: {x: 588, y: 96, z: 0}
-  m_IKOnFeet: 1
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_Motion: {fileID: 20671824}
-=======
-  m_Motion: {fileID: 7400000, guid: aed30526720ba3646a5ed15beabed5f1, type: 2}
->>>>>>> Beaux/master
+  m_Motion: {fileID: 20609858}
   m_Tag: 
 --- !u!1102 &110250708
 AnimatorState:
@@ -615,11 +755,7 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-<<<<<<< HEAD
   - {fileID: 110190322}
-=======
-  - {fileID: 110191560}
->>>>>>> Beaux/master
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -637,45 +773,27 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110236212}
-<<<<<<< HEAD
-    m_Position: {x: 12, y: 96, z: 0}
+    m_Position: {x: 24, y: 108, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 110273240}
-    m_Position: {x: -312, y: 0, z: 0}
+    m_State: {fileID: 110243148}
+    m_Position: {x: -348, y: -84, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 110238062}
-    m_Position: {x: -528, y: 192, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 110240762}
+    m_State: {fileID: 110201342}
     m_Position: {x: -312, y: 96, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 110207374}
-    m_Position: {x: -252, y: 192, z: 0}
-=======
-    m_Position: {x: 48, y: 84, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 110237006}
-    m_Position: {x: 300, y: 84, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 110250708}
-    m_Position: {x: -180, y: 84, z: 0}
->>>>>>> Beaux/master
+    m_State: {fileID: 110229526}
+    m_Position: {x: 24, y: -48, z: 0}
   m_ChildStateMachines: []
-  m_AnyStateTransitions: []
+  m_AnyStateTransitions:
+  - {fileID: 110132938}
   m_EntryTransitions: []
   m_StateMachineTransitions:
     data:
       first: {fileID: 110799498}
       second: []
   m_StateMachineBehaviours: []
-<<<<<<< HEAD
-  m_AnyStatePosition: {x: -588, y: 12, z: 0}
+  m_AnyStatePosition: {x: -588, y: -60, z: 0}
   m_EntryPosition: {x: -600, y: 108, z: 0}
   m_ExitPosition: {x: 384, y: 12, z: 0}
-=======
-  m_AnyStatePosition: {x: -132, y: 12, z: 0}
-  m_EntryPosition: {x: -372, y: 84, z: 0}
-  m_ExitPosition: {x: 564, y: 60, z: 0}
->>>>>>> Beaux/master
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 110250708}
+  m_DefaultState: {fileID: 110201342}

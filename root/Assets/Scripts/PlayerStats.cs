@@ -20,8 +20,8 @@ public class PlayerStats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-		healthBar.value = currentHealth;
+			/* health bar shit = kyle's shit   */
+		//healthBar.value = currentHealth;
         if (currentHealth <= 0)
         {
             Debug.Log(currentHealth);
