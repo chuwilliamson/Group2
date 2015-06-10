@@ -48,12 +48,14 @@ public class LinkControllerScript : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.A)) {
 			{
 				this.gameObject.transform.rotation = Quaternion.Euler (new Vector3 (0, 270, 0));
+				{Debug.Log ("Rotated left");}
 			}
 		}
 
 		if (Input.GetKeyDown (KeyCode.D)) {
 			{
 				this.gameObject.transform.rotation = Quaternion.Euler (new Vector3 (0, 90, 0));
+				{Debug.Log ("Rotated right");}
 			}
 		}
 
