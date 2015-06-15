@@ -6,8 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/class game.unity
+    path: Assets/Scenes/gui/StartMenu.unity
+  - enabled: 1
+    path: Assets/Scenes/gui/Pause.unity
   - enabled: 1
     path: Assets/Scenes/gui/GameOverMenu.unity
   - enabled: 1
-    path: Assets/Scenes/tester.unity
+    path: Assets/Scenes/gui/Win.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalGameScenes/Level1.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalGameScenes/Level2.unity
+  - enabled: 1
+    path: Assets/Scenes/FinalGameScenes/Level3.unity

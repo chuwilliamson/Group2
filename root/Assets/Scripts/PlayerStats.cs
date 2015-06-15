@@ -9,14 +9,14 @@ public class PlayerStats : MonoBehaviour {
     public int MaxHealth = 100;
     public int currentHealth; 
 	public Slider healthBar;
-  //  public GameObject GUISHIT;
+    public GameObject GUISHIT;
     bool damaged;
     
 	// Use this for initialization
 	void Start () {
 
         currentHealth = MaxHealth;
-       // GUISHIT.SetActive(false);        
+        GUISHIT.SetActive(false);        
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,7 @@ public class PlayerStats : MonoBehaviour {
 
 	void Update () {
 			/* health bar shit = kyle's shit   */
-		//healthBar.value = currentHealth;
+		healthBar.value = currentHealth;
         if (currentHealth <= 0)
         {
             Debug.Log(currentHealth);
@@ -32,7 +32,7 @@ public class PlayerStats : MonoBehaviour {
             //GUISHIT.SetActive(true);
             
             
-           // Application.LoadLevel("GameOverMenu");
+           Application.LoadLevel("GameOverMenu");
         }
 
     }
